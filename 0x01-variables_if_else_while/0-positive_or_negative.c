@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * printout whether a number of positive,zero.or negative
+ *main-printout whether a number of positive,zero.or negative
  * return: 0
 */
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 						printf("the number is %d\n positive", n);
 					}
 /**
- * return 0 for success
- */
+* return 0 for success
+*/
 	return (0);
 }
