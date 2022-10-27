@@ -1,9 +1,6 @@
 #include <stdio.h>
-/**
- * main -Use the function puts
- * return: 0
-*
-*/
+/*main -Use the function puts*/
+/* return: 0*/
 
 int main(void)
 {
