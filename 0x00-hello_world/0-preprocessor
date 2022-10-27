@@ -1,14 +1,2 @@
 #!/bin/bash
-/**
-*script that runs a C file through the
-*preprocessor and save the result into 
-*another file.
-*/
-
-
-gcc $CFILE -E -o c 
-
-
-
-
-
+gcc $CFILE -E -o c
