@@ -12,10 +12,10 @@ int main(void)
 	long long int d;
 	float e;
 
-	Printf(“Size of a char : % lu byte(s)\n”, (unsighned sizeof(a));
-	Printf(“Size of a int : % lu byte(s)\n”, (unsighned sizeof(b));
-	Printf(“Size of a long int : % lu byte(s)\n”, (unsighned sizeof(c));
-	Printf(“Size of a long long int : % lu byte(s)\n”, (unsighned sizeof(d));
-	Printf(“Size of a float : % lu byte(s)\n”, (unsighned sizeof(e));
+	Printf(“Size of a char : % lu byte(S)\n”, (unsighned sizeof(a));
+	Printf(“Size of a int : % lu byte(S)\n”, (unsighned sizeof(b));
+	Printf(“Size of a long int : % lu byte(S)\n”, (unsighned sizeof(c));
+	Printf(“Size of a long long int : % lu byte(S)\n”, (unsighned sizeof(d));
+	Printf(“Size of a float : % lu byte(S)\n”, (unsighned sizeof(e));
 return (0);
 }
