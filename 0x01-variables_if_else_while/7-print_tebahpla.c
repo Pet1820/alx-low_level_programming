@@ -1,14 +1,18 @@
 #include <stdio.h>
-/*main- 7-print_tebahpla.c*/
-/*return: 0*/
-main(void)
+/**
+ * main -Print a to z in reverse
+ *
+ * Return: 0
+ *
+*/
+int main(void)
 {
-	counter = z;
-	while (counter >= a)
-	{
-		putchar("%c", counter);
-	}
-	putchar("\n");
-		return (0);
-}
+	int counter;
 
+	for (counter = 'z'; counter >= 'a'; counter--)
+	{
+		putchar(counter);
+	}
+	putchar('\n');
+	return (0);
+}
