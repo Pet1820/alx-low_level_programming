@@ -1,17 +1,22 @@
 #include <stdio.h>
-/*main-prints alphabets excepts q and e*/
-/*return: 0;*/
-
-main(void)
+/**
+ * main -Proram that prints all small and capital letters
+ *
+ * Return: i
+ *
+*/
+int main(void)
 {
-	alph = a;
-	while (alph < = z)
-	{
-		while (alph != q && alph != e)
-		{
-		putchar ("%c," alph);
-		}
-		putchar ("\n");
-	}
+	char i;
+
+for (i = 'a'; i <= 'z'; i++)
+{
+putchar(i);
+}
+for (i = 'A'; i <= 'Z'; i++)
+{
+putchar(i);
+}
+putchar('\n');
 return (0);
 }
