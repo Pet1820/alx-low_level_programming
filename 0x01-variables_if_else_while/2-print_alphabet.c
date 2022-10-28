@@ -8,10 +8,10 @@ char main(void)
 {
 char alph;
 
-while (alph = 'a' alph < = 'z' alph++)
+for (alph = 'a' alph < = 'z' alph++)
 {
-putchar ("%c", alph);
+putchar (alph);
+putchar ('\n');
 }
-putchar ("\n");
 return (alph);
 }
