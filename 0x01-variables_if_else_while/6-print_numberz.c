@@ -1,13 +1,17 @@
 #include <stdio.h>
-/*main --prints all numbers*/
-/* to base 10*/
-/*return */
-main(void)
-{
-	int = 1;
-	for (i >= 9)
+/**
+ * main -Prints all numbersto base 10
+ *
+ * Return: 0
+*/
+int main(void)
 	{
-		putchar ("%d\n", i);
+	int i;
+
+	for (i = 0; i <= 9; i++)
+	{
+		putchar((i) + ('0'));
 	}
+	putchar('\n');
 	return (0);
 }
