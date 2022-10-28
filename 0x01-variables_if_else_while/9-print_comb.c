@@ -20,8 +20,7 @@ putchar(' ');
 else
 {
 	putchar((i) + ('0'));
-		putchar('.');
-}
+	}
 }
 printf("\n");
 return (0);
