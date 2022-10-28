@@ -4,14 +4,14 @@
  *
  * Return: 0;
 */
-char main(void)
+int main(void)
 {
 char alph;
 
-for (alph = 'a' alph < = 'z' alph++)
+for (alph = 'a'; alph <= 'z'; alph++)
 {
 putchar (alph);
-putchar ('\n');
 }
-return (alph);
+putchar ('\n');
+return (0);
 }
