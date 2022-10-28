@@ -1,14 +1,17 @@
 #include <stdio.h>
-/*main-prints small alphabetical letters*/
-/*return: 0;*/
+/**
+ * main -Prints small alphabetical letters
+ *
+ * Return: 0;
+*/
 char main(void)
 {
-alph = a;
-while (alph < = z)
-alph++;
+char alph;
+
+while (alph = 'a' alph < = 'z' alph++)
 {
-putchar ("%c", alph)
+putchar ("%c", alph);
 }
-putchar ("\n")
-return 0
+putchar ("\n");
+return (alph);
 }
