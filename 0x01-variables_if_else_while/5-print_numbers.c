@@ -1,13 +1,18 @@
 #include <stdio.h>
-/*main-print base 10 numbers*/
-/*return: 0;*/
+/**
+ * main -Print base 10 numbers
+ *
+ * Return: 0
+ *
+*/
 int main(void)
 {
-	i = 0;
-	for (i < 10)
-{
-	printf ("%d\n", i);
-		i++;
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+	printf ("%d", i);
 }
+printf ("\n");
 return (0);
 }
